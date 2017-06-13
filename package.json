@@ -1,0 +1,19 @@
+{
+  "name": "online",
+  "version": "1.0.0",
+  "description": "在线留言",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YANhappiness/onlineMessage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YANhappiness/onlineMessage/issues"
+  },
+  "homepage": "https://github.com/YANhappiness/onlineMessage#readme"
+}

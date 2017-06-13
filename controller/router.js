@@ -48,7 +48,7 @@ exports.getData = function(req,res,next){
                 res.redirect("/");
             });
         }
-        res.redirect("/"); //地址跳转
+        //res.redirect("/"); //地址跳转
     });
     return next;
 }
@@ -57,7 +57,7 @@ exports.getData = function(req,res,next){
 exports.del = function(req,res,next){
     var rand = req.query.rand;   //删除时间戳
     mongo.deleteMany("message",{"rand":rand},function(err,docs){
-        res.render("/");
+        res.redirect("/");
 
         //res.redirect("back");     //删除数据后停留在本页 如果本页灭有数据则重定向到上一页
         //if(){
